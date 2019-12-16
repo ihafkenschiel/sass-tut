@@ -1,7 +1,5 @@
-$txtcolor: #008000;
-$fontSize: 20px;
+$name: "tutorialspoint";
 
-p {
-  color: $txtcolor;
-  font-size: $fontSize;
+p.#{$name} {
+  color: blue;
 }

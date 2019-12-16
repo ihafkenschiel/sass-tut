@@ -1,18 +1,8 @@
-.container h1 {
-  font-size: 25px;
-  color: #E45456;
+a {
+  font-size: 20px;
 }
-.container p {
-  font-size: 25px;
-  color: #3C7949;
-}
-.container .box h1 {
-  font-size: 25px;
-  color: #E45456;
-}
-.container .box p {
-  font-size: 25px;
-  color: #3C7949;
+a:hover {
+  background-color: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */

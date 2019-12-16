@@ -1,23 +1,4 @@
-.container{
-   h1{
-      font-size: 25px;
-      color:#E45456;
-   }
-
-   p{
-      font-size: 25px;
-      color:#3C7949;
-   }
-
-   .box{
-      h1{
-         font-size: 25px;
-         color:#E45456;
-      }
-
-      p{
-         font-size: 25px;
-         color:#3C7949;
-      }
-   }
+a {
+   font-size: 20px;
+   &:hover { background-color: yellow; }
 }

@@ -1,8 +1,9 @@
-.line {
-  font-family: Lucida Sans Unicode;
+.frst_para, .sec_para {
+  color: green;
+}
+
+.sec_para {
   font-size: 20px;
-  font-weight: bold;
-  font-variant: small-caps;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,17 +1,7 @@
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 5px;
-}
-
-.para1 {
-  font-size: 37.5px;
-}
-
-.para2 {
-  font-size: 15px;
+p {
+  color: #7f0f16;
+  width: 62.5%;
+  background-color: rgba(132, 20, 30, 0.75);
 }
 
 /*# sourceMappingURL=style.css.map */

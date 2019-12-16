@@ -18,3 +18,10 @@ sass --watch style.scss:style.css
 ```
 
 Tutorial: https://www.tutorialspoint.com/sass/sass_installation.htm
+
+
+# Running SASS Shell
+
+```
+sass -i
+```

@@ -1,4 +1,8 @@
-a {
-   font-size: 20px;
-   &:hover { background-color: yellow; }
+.line {
+   font: {
+      family: Lucida Sans Unicode;
+      size:20px;
+      weight: bold;
+      variant: small-caps;
+   }
 }

@@ -1,9 +1,13 @@
-.frst_para, .sec_para {
-  color: green;
+/* This comment is
+ * more than one line long
+ * since it uses the CSS comment syntax,
+ * it will appear in the CSS output. */
+body {
+  color: black;
 }
 
-.sec_para {
-  font-size: 20px;
+a {
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */

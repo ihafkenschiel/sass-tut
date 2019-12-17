@@ -1,15 +1,14 @@
-.style {
-  font: {
-    size: 30px;
-    style: italic;
-  }
-}
-
 h2 {
-  color: #787878;
-  @extend .style
-}
+  color: #808000;
+  background-color: #DB7093;
 
-.container {
-  @extend h2
+  @at-root {
+    .style {
+      font: {
+        size: 20px;
+        style: bold;
+      }
+      color: #B8860B;
+    }
+  }
 }

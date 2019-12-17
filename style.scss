@@ -1,9 +1,3 @@
-$font-sizes: 10px + 20px;
-$style: (
-  color: #bdc3c7
-);
+$main-color: #bdc3c7;
 
-.container {
-  @debug $style;
-  @debug $font-sizes;
-}
+@warn "Darker: " darken($main-color, 30%);

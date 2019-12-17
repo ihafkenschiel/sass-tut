@@ -1,6 +1,5 @@
-@each $color, $border in (aqua, dotted), (red, solid), (green, double) {
-  .#{"" + $color} {
-    background-color: $color;
-    border: $border;
+@each $header, $color in (h1: red, h2: green, h3: blue) {
+  #{$header} {
+    color: $color;
   }
 }

@@ -1,16 +1,13 @@
-.aqua {
-  background-color: aqua;
-  border: dotted;
+h1 {
+  color: red;
 }
 
-.red {
-  background-color: red;
-  border: solid;
+h2 {
+  color: green;
 }
 
-.green {
-  background-color: green;
-  border: double;
+h3 {
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */

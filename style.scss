@@ -1,7 +1,9 @@
-@mixin style {
-  .cont {
-    color: #77C1EF;
-  }
+@mixin bordered($color, $width: 2px) {
+  color: $color;
+  border: $width solid black;
+  width: 450px;
 }
 
-@include style;
+.style {
+  @include bordered(#77ABC1, 1px);
+}

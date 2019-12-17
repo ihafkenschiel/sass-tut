@@ -1,5 +1,6 @@
-@each $color in red, green, yellow, blue {
-   .p_#{"" + $color} {
-      background-color: #{$color};
-   }
+@each $color, $border in (aqua, dotted), (red, solid), (green, double) {
+  .#{"" + $color} {
+    background-color: $color;
+    border: $border;
+  }
 }

@@ -1,17 +1,16 @@
-.p_red {
+.aqua {
+  background-color: aqua;
+  border: dotted;
+}
+
+.red {
   background-color: red;
+  border: solid;
 }
 
-.p_green {
+.green {
   background-color: green;
-}
-
-.p_yellow {
-  background-color: yellow;
-}
-
-.p_blue {
-  background-color: blue;
+  border: double;
 }
 
 /*# sourceMappingURL=style.css.map */

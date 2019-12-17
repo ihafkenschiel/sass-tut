@@ -2,7 +2,6 @@ $base-color: #AD141E;
 $alt-color: rgb(10, 20, 30, .5);
 
 p {
-  color: darken($base-color, 10%);
-  width: 600px / 960px * 100%;
-  background-color: mix($base-color, $alt-color);
+  color: $base-color;
+  background-color: complement($base-color);
 }

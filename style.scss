@@ -1,12 +1,5 @@
-$type: audi;
-p {
-  @if $type == benz {
-    color: red;
-  } @else if $type == mahindra {
-    color: blue;
-  } @else if $type == audi {
-    color: green; // true
-  } @else {
-    color: black;
+@for $i from 1 through 4 {
+  .p#{$i} {
+    padding-left: $i * 10px;
   }
 }

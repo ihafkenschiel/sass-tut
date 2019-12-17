@@ -1,5 +1,17 @@
-p {
-  color: green;
+.p1 {
+  padding-left: 10px;
+}
+
+.p2 {
+  padding-left: 20px;
+}
+
+.p3 {
+  padding-left: 30px;
+}
+
+.p4 {
+  padding-left: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

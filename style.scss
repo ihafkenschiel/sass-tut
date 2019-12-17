@@ -1,14 +1,9 @@
-h2 {
-  color: #808000;
-  background-color: #DB7093;
+$font-sizes: 10px + 20px;
+$style: (
+  color: #bdc3c7
+);
 
-  @at-root {
-    .style {
-      font: {
-        size: 20px;
-        style: bold;
-      }
-      color: #B8860B;
-    }
-  }
+.container {
+  @debug $style;
+  @debug $font-sizes;
 }

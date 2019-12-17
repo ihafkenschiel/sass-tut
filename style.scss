@@ -1,3 +1,5 @@
-p:after {
-  content: "I have #{8 + 2} books on SASS!";
+@import "partials";
+
+p {
+  background: red;
 }

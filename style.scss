@@ -1,5 +1,5 @@
-@for $i from 1 to 4 {
-  .p#{$i} {
-    padding-left: $i * 10px;
-  }
+@each $color in red, green, yellow, blue {
+   .p_#{"" + $color} {
+      background-color: #{$color};
+   }
 }

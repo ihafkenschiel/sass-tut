@@ -1,13 +1,17 @@
-.p1 {
-  padding-left: 10px;
+.p_red {
+  background-color: red;
 }
 
-.p2 {
-  padding-left: 20px;
+.p_green {
+  background-color: green;
 }
 
-.p3 {
-  padding-left: 30px;
+.p_yellow {
+  background-color: yellow;
+}
+
+.p_blue {
+  background-color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */

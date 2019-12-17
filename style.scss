@@ -1,5 +1,15 @@
-@import "partials";
+.style {
+  font: {
+    size: 30px;
+    style: italic;
+  }
+}
 
-p {
-  background: red;
+h2 {
+  color: #787878;
+  @extend .style
+}
+
+.container {
+  @extend h2
 }

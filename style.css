@@ -1,9 +1,10 @@
-.container {
-  background: blue;
+.style, h2, .container {
+  font-size: 30px;
+  font-style: italic;
 }
 
-p {
-  background: red;
+h2, .container {
+  color: #787878;
 }
 
 /*# sourceMappingURL=style.css.map */

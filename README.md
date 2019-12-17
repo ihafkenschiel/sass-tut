@@ -25,3 +25,8 @@ Tutorial: https://www.tutorialspoint.com/sass/sass_installation.htm
 ```
 sass -i
 ```
+
+
+# Reviewing The Different Tests
+
+Each test is saved as a different commit instead of making new files for each one.

@@ -1,11 +1,12 @@
+$type: audi;
 p {
-  @if 10 + 10 == 20 {
-    border: 1px dotted; // true
-  }
-  @if 7 < 2 {
-    border: 2px solid; // false
-  }
-  @if null {
-    border: 3px double; // false
+  @if $type == benz {
+    color: red;
+  } @else if $type == mahindra {
+    color: blue;
+  } @else if $type == audi {
+    color: green; // true
+  } @else {
+    color: black;
   }
 }

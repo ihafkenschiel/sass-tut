@@ -1,7 +1,4 @@
-$age: 20;
-
-.bool {
-  @if ($age > 10 and $age < 25) {
-    color: green;
-  }
+p {
+  font-size: 5px + (6px * 2);
+  color: #ff0000;
 }

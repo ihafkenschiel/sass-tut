@@ -1,7 +1,5 @@
-$base-color: #AD141E;
-$alt-color: rgb(10, 20, 30, .5);
+
 
 p {
-  color: $base-color;
-  background-color: complement($base-color);
+  font-size: 5px + 10px;
 }

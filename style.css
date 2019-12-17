@@ -1,3 +1,17 @@
+/* Error: "Invalid color: 'white'."
+ *    ,
+ * 15 |   style: style-variation(white);
+ *    |          ^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   style.scss 15:10  root stylesheet */
 
-
-/*# sourceMappingURL=style.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: \"Invalid color: 'white'.\"\a    \2577 \a 15 \2502    style: style-variation(white);\a    \2502           ^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   style.scss 15:10  root stylesheet";
+}

@@ -1,9 +1,8 @@
-@mixin bordered($color, $width: 2px) {
-  color: $color;
-  border: $width solid black;
-  width: 450px;
+$first-width: 5px;
+$second-width: 6px;
+
+@function adjust_width($n) {
+  @return $n * $first-width + ($n - 1) * $second-width;
 }
 
-.style {
-  @include bordered(#77ABC1, 1px);
-}
+#set_width { padding-left: adjust_width(10); }
